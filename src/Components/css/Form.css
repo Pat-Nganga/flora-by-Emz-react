@@ -1,0 +1,66 @@
+#flower-form {
+    display: flex;
+    flex-direction:left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+  }
+
+  .create-form{
+     margin: 20px 100px 20px 100px;
+     padding: 10px;
+  }
+
+  #form-btn {
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .label{
+    padding-left: 12px;
+  }
+  
+ input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  button {
+    background-color:lightpink;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color:plum;
+  }
+  
+  button:active {
+    background-color: plum !important;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .btn-container{
+    display: flex;
+    flex-direction:left;
+    align-items: center;
+    justify-content: center;
+  }
